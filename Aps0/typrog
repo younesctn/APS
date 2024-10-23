@@ -1,0 +1,2 @@
+#!/bin/bash
+./prologTerm $1 | swipl -s type_checker.pl -g main_stdin 2>&1

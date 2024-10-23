@@ -1,0 +1,6 @@
+[
+    PROC p [y:int,x:int] [
+        ECHO (add y x)
+    ];
+    CALL p 2 3
+]
